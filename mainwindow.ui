@@ -19,15 +19,16 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>100</width>
-      <height>30</height>
+      <width>50</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="toolTip">
      <string>Прямоугольник</string>
     </property>
-    <property name="text">
-     <string>Прямоугольник</string>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/icons/pryamougolnik.ico</normaloff>:/icons/pryamougolnik.ico</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -45,17 +46,18 @@
    <widget class="QPushButton" name="ellipseButton">
     <property name="geometry">
      <rect>
-      <x>110</x>
+      <x>60</x>
       <y>10</y>
-      <width>100</width>
-      <height>30</height>
+      <width>50</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="toolTip">
      <string>Эллипс</string>
     </property>
-    <property name="text">
-     <string>Эллипс</string>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/icons/ellipse.ico</normaloff>:/icons/ellipse.ico</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -73,17 +75,18 @@
    <widget class="QPushButton" name="triangleButton">
     <property name="geometry">
      <rect>
-      <x>210</x>
+      <x>110</x>
       <y>10</y>
-      <width>100</width>
-      <height>30</height>
+      <width>50</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="toolTip">
      <string>Треугольник</string>
     </property>
-    <property name="text">
-     <string>Треугольник</string>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/icons/treugolnik.ico</normaloff>:/icons/treugolnik.ico</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -101,17 +104,18 @@
    <widget class="QPushButton" name="connectionButton">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>170</x>
       <y>10</y>
-      <width>100</width>
-      <height>30</height>
+      <width>50</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="toolTip">
      <string>Связь</string>
     </property>
-    <property name="text">
-     <string>Связь</string>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/icons/liniya.ico</normaloff>:/icons/liniya.ico</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -129,17 +133,18 @@
    <widget class="QPushButton" name="moveButton">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>220</x>
       <y>10</y>
-      <width>100</width>
-      <height>30</height>
+      <width>50</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="toolTip">
      <string>Переместить</string>
     </property>
-    <property name="text">
-     <string>Переместить</string>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/icons/hand.ico</normaloff>:/icons/hand.ico</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -157,17 +162,18 @@
    <widget class="QPushButton" name="deleteButton">
     <property name="geometry">
      <rect>
-      <x>520</x>
+      <x>270</x>
       <y>10</y>
-      <width>100</width>
-      <height>30</height>
+      <width>50</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="toolTip">
      <string>Стереть</string>
     </property>
-    <property name="text">
-     <string>Стереть</string>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/icons/lastik.ico</normaloff>:/icons/lastik.ico</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -185,17 +191,18 @@
    <widget class="QPushButton" name="saveButton">
     <property name="geometry">
      <rect>
-      <x>630</x>
+      <x>330</x>
       <y>10</y>
-      <width>100</width>
-      <height>30</height>
+      <width>50</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="toolTip">
      <string>Сохранить</string>
     </property>
-    <property name="text">
-     <string>Сохранить</string>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/icons/save.ico</normaloff>:/icons/save.ico</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -207,17 +214,18 @@
    <widget class="QPushButton" name="loadButton">
     <property name="geometry">
      <rect>
-      <x>730</x>
+      <x>380</x>
       <y>10</y>
-      <width>100</width>
-      <height>30</height>
+      <width>50</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="toolTip">
      <string>Загрузить</string>
     </property>
-    <property name="text">
-     <string>Загрузить</string>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/icons/load.ico</normaloff>:/icons/load.ico</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -230,9 +238,9 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>50</y>
+      <y>70</y>
       <width>1291</width>
-      <height>661</height>
+      <height>641</height>
      </rect>
     </property>
     <property name="mouseTracking">
@@ -248,10 +256,10 @@
    <widget class="Line" name="line">
     <property name="geometry">
      <rect>
-      <x>310</x>
+      <x>160</x>
       <y>10</y>
       <width>10</width>
-      <height>30</height>
+      <height>50</height>
      </rect>
     </property>
     <property name="orientation">
@@ -261,10 +269,10 @@
    <widget class="Line" name="line_2">
     <property name="geometry">
      <rect>
-      <x>620</x>
+      <x>320</x>
       <y>10</y>
       <width>10</width>
-      <height>30</height>
+      <height>50</height>
      </rect>
     </property>
     <property name="orientation">
@@ -281,7 +289,9 @@
    <container>1</container>
   </customwidget>
  </customwidgets>
- <resources/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
  <connections/>
  <buttongroups>
   <buttongroup name="buttonGroup"/>
