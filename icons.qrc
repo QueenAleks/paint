@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/ellipse.ico</file>
+        <file>icons/hand.ico</file>
+        <file>icons/kisti.ico</file>
+        <file>icons/lastik.ico</file>
+        <file>icons/liniya.ico</file>
+        <file>icons/load.ico</file>
+        <file>icons/pryamougolnik.ico</file>
+        <file>icons/save.ico</file>
+        <file>icons/treugolnik.ico</file>
+    </qresource>
+</RCC>
